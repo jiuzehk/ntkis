@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.poly</groupId>
   <artifactId>ntkis</artifactId>
-  <version>1.1</version>
+  <version>1.0</version>
   <packaging>aar</packaging>
   <build>
     <plugins>
@@ -29,4 +29,26 @@
             <url>https://android-sdk.is.com/</url>
         </repository>
     </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>com.ironsource.sdk</groupId>
+      <artifactId>mediationsdk</artifactId>
+      <version>7.8.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-appset</artifactId>
+      <version>16.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-basement</artifactId>
+      <version>18.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.jiuzehk</groupId>
+      <artifactId>ntkifs</artifactId>
+      <version>1.2</version>
+    </dependency>
+  </dependencies>
 </project>
